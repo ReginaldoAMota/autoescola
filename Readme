@@ -6,3 +6,7 @@ Projeto Auto escola.
 --> Para rodar somente o back-end basta rodar o comando "npm run dev-server"
 --> Para rodar somente o front-end basta rodar o comando "npm run dev-client" 
 
+-> Stack
+--> API : Nest.js 
+--> WEB-APP : Next.js
+
