@@ -1,0 +1,15 @@
+Passo a passo para criar um modulo:
+
+-> Criar uma pasta com o nome do modulo na pasta modulos.
+
+-> Criar os arquivos :
+    - <nome do modulo>.controller.ts
+        - Nesse arquivo voce ira criar os metodos HTTP que irao ser utilizados pelo modulo.
+    - <nome do modulo>.controller.spec.ts
+        - Nesse arquivo voce ira criar os testes para os metodos de sua controller.
+    - <nome do modulo>.module.ts
+        - Nesse arquivo voce ira declarar e exportar seu modulo alem de importar a controller e o service que ele precisa.
+    - <nome do modulo>.service.ts
+        - Nesse arquivo voce ira criar as funções relacionadas a aquele modulo.
+
+-> importar o modulo no arquivo principal (main.ts), na secao de imports .
