@@ -1,0 +1,16 @@
+{
+  "name": "autoescola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \" npm --prefix ./api run start:dev \" \" npm --prefix ./web-app run dev \"",
+    "dev-server": "npm --prefix ./api run start:dev",
+    "dev-client": "npm --prefix ./web-app run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
